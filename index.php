@@ -38,7 +38,6 @@ try {
 
         case '/error/500':
             throw new Exception;
-            break;
 
         default:
             throw new NotFoundException;
